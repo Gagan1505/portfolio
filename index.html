@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/578ffcca4c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <h1><b style="color: #ff004f;">G</b>agan</h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>  
+        <div class="header-text">
+            <h1>Hi, I'm <b style="color: #ff004f;">Gagan A</b> <br>from Davanagere</h1>
+        </div>   
+    </div>
+   </div>
+
+<!--------------ABOUT-------------->
+
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/4ub19cs021photo.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Computer Science Graduate | 2023 <br>
+                    Open to new opportunities to work <br>Passionate about solving complex problems through <br> innovative technology solutions.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                    <!-- <p class="tab-links"onclick="opentab('Project')">Project</p> -->
+                    <p class="tab-links"onclick="opentab('Internship')">Internship</p>
+                </div>
+                <div class="tab-contents active-tab" id="Education">
+                    <ul>
+                        <li><span>2023</span><br>University BDT College of Engineering -Davanagere <br>CSE</li>
+                        <li><span>2019</span><br>Siddaganga Science PU College -Davanagere</li>
+                        <li><span>2017</span><br>Bapuji English Medium CBSE School -Davanagere</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Internship">
+                    <h1><b style="color: #b54769;"> Sumukha Info-tech Davanagere</b></h1>
+                    <p>Completed Internship on Machine Learning using Python .</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   </div>
+
+   <!-- -----------------Skills-------------- -->
+
+   <div id="skills">
+        <div class="container">
+            <h1 class="sub-title font1" >My Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <img width="144" height="144" src="https://img.icons8.com/color/144/000000/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1"/>
+                    <h2>Core Java</h2>
+                    <p>Basics of Java <br> OOPS Concepts <br> Arrays and Strings <br>Data Structures </p>
+                    <p></p>
+                </div>
+                <div>
+                    <img width="144" height="144" src="https://img.icons8.com/color/96/000000/code.png" alt="code"/>
+                    <h2>Web Development</h2>
+                    <p>HTML <br> CSS <br> Java Script <br> Bootstrap </p>
+                </div>
+                <div>
+                    <img width="144" height="144" src="https://img.icons8.com/color/144/000000/python--v1.png" alt="python--v1"/>
+                    <h2>Python</h2>
+                    <p>Basics of Python <br> Machine Learning Concepts</p>
+                </div>
+            </div>
+        </div>
+   </div>
+
+<!-- ------------------PROJECTS----------------- -->
+
+   <div id="projects">
+        <div class="container">
+            <h1 class="sub-title font1">My Projects</h1>
+            <div class="projects-list">
+                <div class="projects">
+                    <img src="images/ipl.jfif">
+                    <div class="layer">
+                        <h3>IPL RUNS MANAGENT SYSTEM</h3>
+                        <p>This project provides a  website which allows the user to see the statistics of the players and teams in IPL team of their interest.</p>
+                        <a href="https://github.com/Gagan1505"><i
+                            class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="projects">
+                    <img src="images/image2.jfif">
+                    <div class="layer">
+                        <h3>PADDY LEAF DISEASE DETECTION SYSTEM USING MACHINE LEARNING</h3>
+                        <p>The primary objective is to provide a user the easiest way to detect the diseases present 
+                            in paddy leaves ,using Python programming language involving machine learning    
+                            concepts.
+                         </p>
+                        <a href="https://github.com/Gagan1505"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            
+            </div>
+            <a href="https://github.com/Gagan1505" class="btn">See more</a>
+        </div>
+   </div>
+
+<!-- -------------------CONTACT-------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1>Contact Me</h1>
+                <p><a href="mailto:gagananand1505@gmail.com"><i class="fa-solid fa-envelope" ></i></a> gagananand1505@gmail.com</p>
+                <p><a href="tel:9353840435"><i class="fa-solid fa-phone" ></i></a> 9353840435</p>
+                <div class="social-icons">
+                    <a href="https://github.com/Gagan1505"><i class="fa-brands fa-github" ></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram" ></i></a>
+                    <a href="https://linkedin.com/in/gagan-anand-"><i class="fa-brands fa-linkedin" ></i></a>
+                </div>
+                <a href="docs/Gagan_BE_CSE_2023_NEW1.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <!-- <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div> -->
+        </div>
+    </div>
+</div>
+
+   <script>
+
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+   </script>
+
+   <script>
+     var sidemenu =document.getElementById("sidemenu");
+     function openmenu(){
+        sidemenu.style.right = "0";
+     }
+     function closemenu(){
+        sidemenu.style.right = "-200px";
+     }
+
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwfiKk0C31XV_UMMClYym9tX3z1sheoY38ATtEDCL6blsDG78vS2yHjzAt5NNvUkO-CoA/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
